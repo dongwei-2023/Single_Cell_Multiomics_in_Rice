@@ -12,4 +12,6 @@ for i in $samples;  do
       --reference=$ref \
       --libraries=${i}.csv \
       --localcores=50
+   cellbender  remove-background --input ${i}/outs/raw_feature_bc_matrix.h5 --output ${i}/outs/cellbender_output_file.h5
+   ptrepack --complevel 5 ${i}/outs/cellbender_output_file_filtered.h5:/matrix ${i}/outs/tiny_output_filtered_seurat.h5:/matrix  
 done
