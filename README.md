@@ -274,7 +274,7 @@ This repository contains a series of scripts designed to handle various aspects 
 
 
 ## Citation 
-For usage of the code and associated manuscript,  If you use our codes, please cite our paper [A single-cell multiomics atlas of rice](https://github.com/dongwei-2023/Single_Cell_Multiomics_in_Rice).
+For usage of the code and associated manuscript,  If you use our codes, please cite our paper [A single-cell multiomics atlas of rice](https://www.nature.com/articles/s41586-025-09251-0).
 
 ## Questions and errors
 If you have a question, error, bug, or problem, please use the [Github issue page](https://github.com/dongwei-2023/Single_Cell_Multiomics_in_Rice/issues).
